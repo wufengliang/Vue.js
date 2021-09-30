@@ -7,7 +7,7 @@ export function initMixin(Vue) {
         vm.$options = options;  //  options选项挂载到实例对象上的$options属性上
 
 
-        initState(vm);
+        initState(vm);  //  初始化数据
 
     }
 }
